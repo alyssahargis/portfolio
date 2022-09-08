@@ -1,0 +1,57 @@
+html{background-color: rgba(176,147,117,255);}
+*{margin: 0px; padding: 0px;}
+p{font-family: serif;}
+.gitwarning{
+text-align: center;
+font-size: 16px;
+color: rgb(191, 0, 0);}
+.page-title{
+font-size: 52px;
+text-align: center;}
+.serif{
+text-align: center;}
+.line{
+color: black;
+border-style: solid;
+margin-top: 5px;}
+.contents{
+margin-left: 10px;}
+.viewimage{
+font-size: 20px;
+margin-left: 10px;
+}
+
+
+.assignment{
+height: 300px;
+width: 600px; /* The width of the infographic text + infographic image is 506px.*/
+border-width: 1px;
+border-style: solid;
+margin-left: 50px;
+margin-top: 50px;
+display: inline-block;
+}
+.title{
+font-size: 36px;
+width: 261px;
+display: inline-block;
+position: absolute;
+}
+.desc{
+font-size: 18px;
+display: inline-block;
+position: absolute;
+margin-top: 20px;
+width: 261px;
+text-align: justify;
+}
+.img{
+width: 336px;
+height: 300px;
+object-fit: cover;
+object-position: right;
+display: inline-block;
+position: absolute;
+margin-left: 264px;
+margin-top: 0px;
+}
