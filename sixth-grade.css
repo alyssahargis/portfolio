@@ -21,3 +21,29 @@ font-size: 24px;
 margin-left: 10px;
 display: inline-block;
 vertical-align: 50%;}
+
+.assignment{
+margin-left: 10px;
+border-width: 1px;
+border-style: solid;
+width: 630px;
+height: 300px;
+display: inline-block;}
+
+.assignment-title{
+position: absolute;
+font-size: 36px;}
+
+.assignment-desc{
+font-size: 20px;
+width: 300px;
+margin-top: 41px;
+position: absolute;
+}
+
+.assigment-img{
+position: absolute;
+height: 300px;
+width: 325px;
+margin-left: 305px;
+object-fit: cover;}
