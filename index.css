@@ -1,23 +1,49 @@
 html{background-color: rgba(176,147,117,255);}
 *{margin: 0px; padding: 0px;}
 p{font-family: serif;}
-.page-title{
-margin-left: 10px;
-font-size: 52px;
-display: inline-block;}
+.page-title{font-size: 52px;}
+body{overflow-x: hidden;}
 .line{
+width: 100%;
 color: black;
 border-style: solid;
-margin-top: 0px;}
-.viewimage{
-margin-top: 5px;
-font-size: 20px;
-margin-left: 10px;
-display: inline-block;
-vertical-align: 50%;}
+margin-top: 0px;
+margin-bottom: 0px;}
+
+.nav{
+position: fixed;
+width: 100%;
+background-color: rgba(176,147,117,255);}
+
 .navlink{
-margin-top: 5px;
+margin-top: 0px;
+margin-bottom: 0px;
+background-color: rgba(176,147,117,255);
 font-size: 24px;
 margin-left: 10px;
-display: inline-block;
-vertical-align: 50%;}
+display: inline-block;}
+.navlink-first{margin-left: 0px;}
+
+.assignment{
+border-width: 1px;
+border-style: solid;
+height: 300px;
+width: 100%;
+display: inline-block;}
+
+.assignment-title{
+font-size: 36px;}
+
+.assignment-desc{
+font-size: 20px;}
+
+.assignment-img{
+height: 300px;
+width: 325px;
+object-fit: cover;
+float: left;}
+
+.bryce-img{width: 601px;}
+.bryce-text{width: 918arpx; float: left;}
+.pop-art-img{object-fit: contain;}
+.assignment-text{float: left; width: 1194px;}
