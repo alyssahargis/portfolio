@@ -25,25 +25,14 @@ display: inline-block;}
 .navlink-first{margin-left: 0px;}
 
 .assignment{
+width: 600px;
 border-width: 1px;
 border-style: solid;
-height: 300px;
-width: 100%;
 display: inline-block;}
-
-.assignment-title{
-font-size: 36px;}
 
 .assignment-desc{
 font-size: 20px;}
 
 .assignment-img{
-height: 300px;
-width: 325px;
-object-fit: cover;
-float: left;}
-
-.bryce-img{width: 601px;}
-.bryce-text{width: 918arpx; float: left;}
-.pop-art-img{object-fit: contain;}
-.assignment-text{float: left; width: 1194px;}
+float: top;
+width: 600px;}
